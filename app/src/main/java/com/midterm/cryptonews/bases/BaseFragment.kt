@@ -12,7 +12,7 @@ import com.midterm.cryptonews.repository.Repository
 
 typealias Inflate<T> = (LayoutInflater, ViewGroup, Boolean) -> T
 
-abstract class BaseFragment<VB : ViewBinding,VM : ViewModel>(private val inflate: Inflate<VB>) :
+abstract class BaseFragment<VB : ViewBinding, VM : ViewModel>(private val inflate: Inflate<VB>) :
     Fragment() {
 
     private var _binding: VB? = null
@@ -21,6 +21,7 @@ abstract class BaseFragment<VB : ViewBinding,VM : ViewModel>(private val inflate
     open lateinit var viewModel: VM
 
     open var useSharedViewModel: Boolean = false
+    open var useViewModelFactory: Boolean = false
 
 
     override fun onCreateView(
@@ -42,14 +43,23 @@ abstract class BaseFragment<VB : ViewBinding,VM : ViewModel>(private val inflate
 
     private fun createViewModel() {
         viewModel = if (useSharedViewModel) {
-            ViewModelProvider(requireActivity(), getFactory()).get(getViewModel())
+            if (useViewModelFactory) {
+                ViewModelProvider(requireActivity(), getFactory()!!).get(getViewModel())
+            } else {
+                ViewModelProvider(requireActivity()).get(getViewModel())
+
+            }
         } else {
-            ViewModelProvider(this,getFactory()).get(getViewModel())
+            if (useViewModelFactory) {
+                ViewModelProvider(this, getFactory()!!).get(getViewModel())
+            } else {
+                ViewModelProvider(this).get(getViewModel())
+            }
         }
     }
 
     abstract fun init()
 
-    abstract fun getFactory(): ViewModelProvider.Factory
+    abstract fun getFactory(): ViewModelProvider.Factory?
     abstract fun getViewModel(): Class<VM>
 }
