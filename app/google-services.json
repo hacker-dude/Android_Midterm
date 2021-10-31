@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941651902607",
+    "project_id": "crypto-news-7945a",
+    "storage_bucket": "crypto-news-7945a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941651902607:android:2280de7f48d5ccb679f0fa",
+        "android_client_info": {
+          "package_name": "com.midterm.cryptonews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941651902607-ufqnru2fujv8usubv1iao7vvus3h4fhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCbV_eu89_r5tuLEpOLiuI-8-9AfbhwYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941651902607-ufqnru2fujv8usubv1iao7vvus3h4fhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,9 @@ package com.midterm.cryptonews.fragments
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import com.midterm.cryptonews.R
 import com.midterm.cryptonews.bases.BaseFragment
 import com.midterm.cryptonews.databinding.FragmentSplashBinding
@@ -17,23 +20,33 @@ import kotlinx.coroutines.withContext
 class SplashFragment : BaseFragment<FragmentSplashBinding, SplashFragmentViewModel>(FragmentSplashBinding::inflate) {
 
     override var useViewModelFactory = true
+    private lateinit var auth: FirebaseAuth
 
     override fun init() {
 
-        viewModel.usdToGel.observe(this,{
-            binding.tvAppName.text = it.usd_gel.toString()
-        })
-        delayedAnim()
+        auth = Firebase.auth
+
+        val currentUser = auth.currentUser
+
+        if(currentUser != null){
+            delayedAnim(R.id.action_splashFragment_to_dashboardFragment)
+        }else{
+            delayedAnim(R.id.action_splashFragment_to_loginFragment)
+        }
+
+//        viewModel.usdToGel.observe(this,{
+//            binding.tvAppName.text = it.usd_gel.toString()
+//        })
         // viewModel.getUsdToGel()
 
     }
 
-    private fun delayedAnim(){
+    private fun delayedAnim(id: Int){
         binding.root.isClickable = false
         binding.root.isSoundEffectsEnabled = false
 
         binding.root.setOnClickListener {
-            findNavController().navigate(R.id.action_splashFragment_to_loginFragment)
+            findNavController().navigate(id)
         }
 
         viewLifecycleOwner.lifecycleScope.launch {

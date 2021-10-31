@@ -29,7 +29,7 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="10"
-        android:text="Crypto News"
+        android:text="@string/crypto_news"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"

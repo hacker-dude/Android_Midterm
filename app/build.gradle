@@ -3,6 +3,9 @@ plugins {
     id 'kotlin-android'
 }
 
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
+
 android {
     compileSdk 31
 
@@ -47,6 +50,8 @@ dependencies {
 
 dependencies {
 
+
+    implementation 'com.google.firebase:firebase-common-ktx:19.5.0'
     implementation 'androidx.leanback:leanback:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     def nav_version = "2.3.5"
@@ -84,5 +89,9 @@ dependencies {
     // Paging
     def paging_version = "3.0.1"
     implementation "androidx.paging:paging-runtime-ktx:$paging_version"
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.0')
+    implementation 'com.google.firebase:firebase-auth-ktx'
 
 }
