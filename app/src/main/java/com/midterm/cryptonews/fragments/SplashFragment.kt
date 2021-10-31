@@ -17,7 +17,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class SplashFragment : BaseFragment<FragmentSplashBinding, SplashFragmentViewModel>(FragmentSplashBinding::inflate) {
+class SplashFragment :
+    BaseFragment<FragmentSplashBinding, SplashFragmentViewModel>(FragmentSplashBinding::inflate) {
 
     override var useViewModelFactory = true
     private lateinit var auth: FirebaseAuth
@@ -28,9 +29,9 @@ class SplashFragment : BaseFragment<FragmentSplashBinding, SplashFragmentViewMod
 
         val currentUser = auth.currentUser
 
-        if(currentUser != null){
+        if (currentUser != null) {
             delayedAnim(R.id.action_splashFragment_to_dashboardFragment)
-        }else{
+        } else {
             delayedAnim(R.id.action_splashFragment_to_loginFragment)
         }
 
@@ -41,7 +42,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding, SplashFragmentViewMod
 
     }
 
-    private fun delayedAnim(id: Int){
+    private fun delayedAnim(id: Int) {
         binding.root.isClickable = false
         binding.root.isSoundEffectsEnabled = false
 
@@ -50,7 +51,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding, SplashFragmentViewMod
         }
 
         viewLifecycleOwner.lifecycleScope.launch {
-            withContext(Main){
+            withContext(Main) {
                 delay(3000L)
                 binding.root.performClick()
             }
@@ -58,7 +59,10 @@ class SplashFragment : BaseFragment<FragmentSplashBinding, SplashFragmentViewMod
     }
 
 
-    override fun getViewModel(): Class<SplashFragmentViewModel> = SplashFragmentViewModel::class.java
-    override fun getFactory(): ViewModelProvider.Factory = SplashFragmentViewModelFactory(Repository())
+    override fun getViewModel(): Class<SplashFragmentViewModel> =
+        SplashFragmentViewModel::class.java
+
+    override fun getFactory(): ViewModelProvider.Factory =
+        SplashFragmentViewModelFactory(Repository())
 
 }

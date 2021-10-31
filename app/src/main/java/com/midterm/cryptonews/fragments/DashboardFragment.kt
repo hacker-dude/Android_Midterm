@@ -10,7 +10,8 @@ import com.midterm.cryptonews.databinding.FragmentDashboardBinding
 import com.midterm.cryptonews.viewmodels.DashboardFragmentViewModel
 
 
-class DashboardFragment : BaseFragment<FragmentDashboardBinding, DashboardFragmentViewModel>(FragmentDashboardBinding::inflate) {
+class DashboardFragment :
+    BaseFragment<FragmentDashboardBinding, DashboardFragmentViewModel>(FragmentDashboardBinding::inflate) {
     override fun init() {
         binding.btnSingOut.setOnClickListener {
             Firebase.auth.signOut()
@@ -20,6 +21,7 @@ class DashboardFragment : BaseFragment<FragmentDashboardBinding, DashboardFragme
 
     override fun getFactory(): ViewModelProvider.Factory? = null
 
-    override fun getViewModel(): Class<DashboardFragmentViewModel> = DashboardFragmentViewModel::class.java
+    override fun getViewModel(): Class<DashboardFragmentViewModel> =
+        DashboardFragmentViewModel::class.java
 
 }
