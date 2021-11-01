@@ -51,6 +51,7 @@ dependencies {
 dependencies {
 
 
+    implementation 'com.google.firebase:firebase-database:19.2.1'
     implementation 'com.google.firebase:firebase-common-ktx:19.5.0'
     implementation 'androidx.leanback:leanback:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
@@ -93,4 +94,5 @@ dependencies {
     // Firebase
     implementation platform('com.google.firebase:firebase-bom:29.0.0')
     implementation 'com.google.firebase:firebase-auth-ktx'
+
 }

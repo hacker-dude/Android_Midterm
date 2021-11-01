@@ -136,4 +136,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/il_password" />
 
+    <ProgressBar
+        android:visibility="gone"
+        android:indeterminateTint="@color/baby_blue_eyes"
+        android:id="@+id/pb_registering"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </ProgressBar>
 </androidx.constraintlayout.widget.ConstraintLayout>

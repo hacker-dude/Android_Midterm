@@ -57,7 +57,6 @@ class LoginFragment :
         val email = email.text.toString()
         val password = password.text.toString()
 
-
         val checkInputs = checkForValidity(email, password)
 
         if (checkInputs) {
@@ -65,15 +64,14 @@ class LoginFragment :
                 .addOnCompleteListener(requireActivity()) { task ->
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
-                        Log.d("AUTHEE", "signInWithEmail:success")
+                        Log.d("AuthLogger", "signInWithEmail:success")
                         val user = auth.currentUser // NEED TO DO SOMETHING WITH THIS
                         findNavController().navigate(R.id.action_loginFragment_to_dashboardFragment)
                     } else {
 
-                        Log.d("AUTHEE", "signInWithEmail:failure", task.exception)
+                        Log.d("AuthLogger", "signInWithEmail:failure", task.exception)
 
                         // -------------------------------------------------
-
                         if (task.exception is FirebaseAuthInvalidUserException) {
 
                             val errorMessage =
@@ -84,9 +82,7 @@ class LoginFragment :
                                     ErrorHandlerMessages.USER_WITH_THIS_EMAIL_DOES_NOT_EXIST.message
                             }
                             // ....
-                        }
-
-                        if (task.exception is FirebaseAuthInvalidCredentialsException) {
+                        } else if (task.exception is FirebaseAuthInvalidCredentialsException) {
                             passwordField.error = ErrorHandlerMessages.INVALID_PASSWORD.message
                             // ....
                         }

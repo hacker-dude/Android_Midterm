@@ -52,7 +52,7 @@ class SplashFragment :
 
         viewLifecycleOwner.lifecycleScope.launch {
             withContext(Main) {
-                delay(3000L)
+                delay(2000L)
                 binding.root.performClick()
             }
         }
