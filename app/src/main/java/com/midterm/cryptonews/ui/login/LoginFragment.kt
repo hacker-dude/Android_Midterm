@@ -1,4 +1,4 @@
-package com.midterm.cryptonews.fragments
+package com.midterm.cryptonews.ui.login
 
 
 import android.util.Log
@@ -12,10 +12,9 @@ import com.google.firebase.auth.FirebaseAuthInvalidUserException
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.midterm.cryptonews.R
-import com.midterm.cryptonews.bases.BaseFragment
 import com.midterm.cryptonews.databinding.FragmentLoginBinding
 import com.midterm.cryptonews.enums.ErrorHandlerMessages
-import com.midterm.cryptonews.viewmodels.LoginFragmentViewModel
+import com.midterm.cryptonews.ui.base.BaseFragment
 
 class LoginFragment :
     BaseFragment<FragmentLoginBinding, LoginFragmentViewModel>(FragmentLoginBinding::inflate) {

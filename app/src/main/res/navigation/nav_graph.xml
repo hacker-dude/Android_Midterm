@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.midterm.cryptonews.fragments.SplashFragment"
+        android:name="com.midterm.cryptonews.ui.splash_screen.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.midterm.cryptonews.fragments.LoginFragment"
+        android:name="com.midterm.cryptonews.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -52,7 +52,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.midterm.cryptonews.fragments.RegisterFragment"
+        android:name="com.midterm.cryptonews.ui.register.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -67,7 +67,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.midterm.cryptonews.fragments.DashboardFragment"
+        android:name="com.midterm.cryptonews.ui.dashboard.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action
@@ -89,7 +89,7 @@
     </fragment>
     <fragment
         android:id="@+id/coinListFragment"
-        android:name="com.midterm.cryptonews.fragments.CoinListFragment"
+        android:name="com.midterm.cryptonews.ui.coin_list.CoinListFragment"
         android:label="fragment_coin_list"
         tools:layout="@layout/fragment_coin_list" />
 </navigation>

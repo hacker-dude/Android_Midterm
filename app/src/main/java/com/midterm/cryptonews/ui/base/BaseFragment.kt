@@ -1,4 +1,4 @@
-package com.midterm.cryptonews.bases
+package com.midterm.cryptonews.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

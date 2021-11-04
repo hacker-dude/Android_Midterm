@@ -1,4 +1,4 @@
-package com.midterm.cryptonews.viewmodels
+package com.midterm.cryptonews.ui.login
 
 import androidx.lifecycle.ViewModel
 

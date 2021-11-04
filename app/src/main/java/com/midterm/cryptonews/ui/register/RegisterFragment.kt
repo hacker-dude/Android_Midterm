@@ -1,4 +1,4 @@
-package com.midterm.cryptonews.fragments
+package com.midterm.cryptonews.ui.register
 
 import android.util.Log
 import android.view.View
@@ -14,13 +14,12 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 import com.midterm.cryptonews.R
-import com.midterm.cryptonews.bases.BaseFragment
 import com.midterm.cryptonews.databinding.FragmentRegisterBinding
 import com.midterm.cryptonews.enums.ErrorHandlerMessages
 import com.midterm.cryptonews.extensions.isAlphaNumeric
 import com.midterm.cryptonews.extensions.setReadOnly
+import com.midterm.cryptonews.ui.base.BaseFragment
 import com.midterm.cryptonews.user.User
-import com.midterm.cryptonews.viewmodels.RegisterFragmentViewModel
 
 
 class RegisterFragment :

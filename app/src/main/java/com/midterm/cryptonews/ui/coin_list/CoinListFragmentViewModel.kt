@@ -1,4 +1,4 @@
-package com.midterm.cryptonews.viewmodels
+package com.midterm.cryptonews.ui.coin_list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

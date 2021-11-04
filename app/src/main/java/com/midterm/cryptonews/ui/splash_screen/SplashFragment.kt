@@ -1,4 +1,4 @@
-package com.midterm.cryptonews.fragments
+package com.midterm.cryptonews.ui.splash_screen
 
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
@@ -7,11 +7,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.midterm.cryptonews.R
-import com.midterm.cryptonews.bases.BaseFragment
 import com.midterm.cryptonews.databinding.FragmentSplashBinding
 import com.midterm.cryptonews.repository.Repository
-import com.midterm.cryptonews.viewmodels.factories.SplashFragmentViewModelFactory
-import com.midterm.cryptonews.viewmodels.SplashFragmentViewModel
+import com.midterm.cryptonews.ui.base.BaseFragment
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

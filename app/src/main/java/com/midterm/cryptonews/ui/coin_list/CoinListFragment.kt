@@ -1,17 +1,18 @@
-package com.midterm.cryptonews.fragments
+package com.midterm.cryptonews.ui.coin_list
 
 import android.util.Log
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.*
 import com.google.firebase.ktx.Firebase
-import com.midterm.cryptonews.bases.BaseFragment
 import com.midterm.cryptonews.databinding.FragmentCoinListBinding
+import com.midterm.cryptonews.models.MoshiMarketModel
 import com.midterm.cryptonews.repository.Repository
-import com.midterm.cryptonews.viewmodels.CoinListFragmentViewModel
-import com.midterm.cryptonews.viewmodels.factories.CoinListFragmentViewModelFactory
+import com.midterm.cryptonews.ui.base.BaseFragment
+import com.midterm.cryptonews.ui.coin_list.source.CoinsAdapter
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
@@ -20,6 +21,7 @@ class CoinListFragment :
 
     private lateinit var auth: FirebaseAuth
     private lateinit var databaseReference: DatabaseReference
+    private lateinit var coins: Array<MoshiMarketModel>
 
     override fun init() {
         startObservers()
@@ -31,7 +33,8 @@ class CoinListFragment :
             viewModel.marketResponse.collect {
                 val body = it.body()
                 if (it.isSuccessful){
-                    binding.tvGetBody.text = body!![0].toString()
+                    coins = body!!
+                    initAdapter()
                 }
                 else{
                     Log.d("ReqErr",it.message())
@@ -62,11 +65,16 @@ class CoinListFragment :
         databaseReference.child(uid!!).child("chosenCoins").addValueEventListener(postListener)
     }
 
+    private fun initAdapter(){
+        binding.rvCoinList.apply {
+            layoutManager = LinearLayoutManager(requireContext())
+            adapter = CoinsAdapter(coins)
+        }
+    }
+
     override var useViewModelFactory = true
 
-    override fun getFactory(): ViewModelProvider.Factory = CoinListFragmentViewModelFactory(
-        Repository()
-    )
+    override fun getFactory(): ViewModelProvider.Factory = CoinListFragmentViewModelFactory(Repository())
 
     override fun getViewModel(): Class<CoinListFragmentViewModel> =
         CoinListFragmentViewModel::class.java

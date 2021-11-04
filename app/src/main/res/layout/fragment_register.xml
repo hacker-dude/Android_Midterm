@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lavender_blue"
-    tools:context=".fragments.RegisterFragment">
+    tools:context=".ui.register.RegisterFragment">
 
     <View
         android:layout_width="match_parent"
