@@ -79,5 +79,17 @@
             app:popExitAnim="@anim/slide_down"
             app:popUpTo="@id/nav_graph"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_coinListFragment"
+            app:destination="@id/coinListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
     </fragment>
+    <fragment
+        android:id="@+id/coinListFragment"
+        android:name="com.midterm.cryptonews.fragments.CoinListFragment"
+        android:label="fragment_coin_list"
+        tools:layout="@layout/fragment_coin_list" />
 </navigation>

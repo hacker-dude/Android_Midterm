@@ -8,5 +8,6 @@ enum class ErrorHandlerMessages(val message: String) {
     PASSWORD_TOO_SHORT("Password Should Be At Least 6 Characters Long"),
     AUTH_FAILED("Authentication Failed"),
     INVALID_CHARS_USERNAME("Please Only Use AlphaNumeric Characters"),
-    EMAIL_ALREADY_IN_USE("This Email Has Already Been Used")
+    EMAIL_ALREADY_IN_USE("This Email Has Already Been Used"),
+    USERNAME_LENGTH("Username Must Be Between 5 And 10 Characters")
 }

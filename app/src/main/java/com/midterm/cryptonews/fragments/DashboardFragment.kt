@@ -14,14 +14,19 @@ import com.midterm.cryptonews.viewmodels.DashboardFragmentViewModel
 class DashboardFragment :
     BaseFragment<FragmentDashboardBinding, DashboardFragmentViewModel>(FragmentDashboardBinding::inflate) {
     private lateinit var auth: FirebaseAuth
-
     override fun init() {
         auth = Firebase.auth
         val user = auth.currentUser
+
         binding.tvUser.text = user!!.email
-        binding.btnSingOut.setOnClickListener {
+
+        binding.btnProfile.setOnClickListener {
             Firebase.auth.signOut()
             findNavController().navigate(R.id.action_dashboardFragment_to_loginFragment)
+        }
+
+        binding.btnList.setOnClickListener {
+            findNavController().navigate(R.id.action_dashboardFragment_to_coinListFragment)
         }
     }
 

@@ -80,7 +80,7 @@ class RegisterFragment :
                             FirebaseDatabase.getInstance("https://crypto-news-7945a-default-rtdb.europe-west1.firebasedatabase.app")
                                 .getReference("users")
 
-                        val userDB = User(username, arrayListOf("USD", "RUB", "EUR"))
+                        val userDB = User(username, arrayListOf("bitcoin", "ethereum"))
 
                         databaseReference.child(uid).setValue(userDB).addOnCompleteListener {
                             if (it.isSuccessful) {
@@ -151,6 +151,12 @@ class RegisterFragment :
                 usernameField.error = ErrorHandlerMessages.INVALID_CHARS_USERNAME.message
             } else {
                 usernameField.error = null
+                if(username.length<5 || username.length>10){
+                    usernameField.error = ErrorHandlerMessages.USERNAME_LENGTH.message
+                }
+                else{
+                    usernameField.error = null
+                }
             }
         }
 

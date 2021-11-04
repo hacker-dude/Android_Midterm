@@ -10,7 +10,7 @@ import com.midterm.cryptonews.R
 import com.midterm.cryptonews.bases.BaseFragment
 import com.midterm.cryptonews.databinding.FragmentSplashBinding
 import com.midterm.cryptonews.repository.Repository
-import com.midterm.cryptonews.viewmodels.SplashFragmentViewModelFactory
+import com.midterm.cryptonews.viewmodels.factories.SplashFragmentViewModelFactory
 import com.midterm.cryptonews.viewmodels.SplashFragmentViewModel
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.delay

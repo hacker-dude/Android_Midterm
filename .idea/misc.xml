@@ -4,16 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.36944444444444446" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable-anydpi/ic_coin_list.xml" value="0.321875" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable-anydpi/ic_profile.xml" value="0.321875" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable/circle.xml" value="0.3880208333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable/rounded_corners.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable/small_circle.xml" value="0.321875" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/drawable/splash_bcg.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/font-v26/gill_sans.xml" value="0.215625" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/font/gill_sans.xml" value="0.375" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/fragment_dashboard.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/fragment_coin_list.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/fragment_register.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/CryptoNews/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2671875" />
       </map>
     </option>
   </component>
