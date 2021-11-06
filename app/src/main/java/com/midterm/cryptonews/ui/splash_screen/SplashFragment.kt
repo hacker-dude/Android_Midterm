@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class SplashFragment :
-    BaseFragment<FragmentSplashBinding, SplashFragmentViewModel>(FragmentSplashBinding::inflate) {
+    BaseFragment<FragmentSplashBinding, SplashViewModel>(FragmentSplashBinding::inflate) {
 
     override var useViewModelFactory = true
     private lateinit var auth: FirebaseAuth
@@ -57,10 +57,10 @@ class SplashFragment :
     }
 
 
-    override fun getViewModel(): Class<SplashFragmentViewModel> =
-        SplashFragmentViewModel::class.java
+    override fun getViewModel(): Class<SplashViewModel> =
+        SplashViewModel::class.java
 
     override fun getFactory(): ViewModelProvider.Factory =
-        SplashFragmentViewModelFactory(Repository())
+        SplashViewModelFactory(Repository())
 
 }

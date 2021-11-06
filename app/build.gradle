@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs'
 }
 
 apply plugin: 'com.google.gms.google-services'
@@ -95,4 +97,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.0')
     implementation 'com.google.firebase:firebase-auth-ktx'
 
+    // Graph
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }

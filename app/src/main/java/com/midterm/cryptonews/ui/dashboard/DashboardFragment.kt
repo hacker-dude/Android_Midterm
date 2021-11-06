@@ -11,7 +11,7 @@ import com.midterm.cryptonews.ui.base.BaseFragment
 
 
 class DashboardFragment :
-    BaseFragment<FragmentDashboardBinding, DashboardFragmentViewModel>(FragmentDashboardBinding::inflate) {
+    BaseFragment<FragmentDashboardBinding, DashboardViewModel>(FragmentDashboardBinding::inflate) {
     private lateinit var auth: FirebaseAuth
     override fun init() {
         auth = Firebase.auth
@@ -31,7 +31,7 @@ class DashboardFragment :
 
     override fun getFactory(): ViewModelProvider.Factory? = null
 
-    override fun getViewModel(): Class<DashboardFragmentViewModel> =
-        DashboardFragmentViewModel::class.java
+    override fun getViewModel(): Class<DashboardViewModel> =
+        DashboardViewModel::class.java
 
 }

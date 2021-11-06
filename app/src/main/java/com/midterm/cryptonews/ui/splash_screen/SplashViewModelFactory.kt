@@ -1,11 +1,11 @@
-package com.midterm.cryptonews.ui.coin_list
+package com.midterm.cryptonews.ui.splash_screen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.midterm.cryptonews.repository.Repository
 
-class CoinListFragmentViewModelFactory(private val repository: Repository) : ViewModelProvider.Factory {
+class SplashViewModelFactory(private val repository:Repository) : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        return CoinListFragmentViewModel(repository) as T
+        return SplashViewModel(repository) as T
     }
 }

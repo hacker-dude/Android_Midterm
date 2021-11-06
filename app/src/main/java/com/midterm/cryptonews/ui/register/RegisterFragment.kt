@@ -23,7 +23,7 @@ import com.midterm.cryptonews.user.User
 
 
 class RegisterFragment :
-    BaseFragment<FragmentRegisterBinding, RegisterFragmentViewModel>(FragmentRegisterBinding::inflate) {
+    BaseFragment<FragmentRegisterBinding, RegisterViewModel>(FragmentRegisterBinding::inflate) {
     private lateinit var auth: FirebaseAuth
     private lateinit var databaseReference: DatabaseReference
 
@@ -180,6 +180,6 @@ class RegisterFragment :
 
     override fun getFactory(): ViewModelProvider.Factory? = null
 
-    override fun getViewModel(): Class<RegisterFragmentViewModel> =
-        RegisterFragmentViewModel::class.java
+    override fun getViewModel(): Class<RegisterViewModel> =
+        RegisterViewModel::class.java
 }

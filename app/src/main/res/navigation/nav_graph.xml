@@ -91,5 +91,34 @@
         android:id="@+id/coinListFragment"
         android:name="com.midterm.cryptonews.ui.coin_list.CoinListFragment"
         android:label="fragment_coin_list"
-        tools:layout="@layout/fragment_coin_list" />
+        tools:layout="@layout/fragment_coin_list" >
+        <action
+            android:id="@+id/action_coinListFragment_to_coinChooserFragment"
+            app:destination="@id/coinChooserFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_coinListFragment_to_coinItemFragment"
+            app:destination="@id/coinItemFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@anim/slide_down"
+            app:popExitAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/coinChooserFragment"
+        android:name="com.midterm.cryptonews.ui.coin_chooser.CoinChooserFragment"
+        android:label="fragment_coin_chooser"
+        tools:layout="@layout/fragment_coin_chooser" />
+    <fragment
+        android:id="@+id/coinItemFragment"
+        android:name="com.midterm.cryptonews.ui.coin_item.CoinItemFragment"
+        android:label="fragment_coin_item"
+        tools:layout="@layout/fragment_coin_item" >
+        <argument
+            android:name="coin_id"
+            app:argType="string" />
+    </fragment>
 </navigation>

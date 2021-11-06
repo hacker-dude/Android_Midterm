@@ -8,14 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="middle_red">#F48668</color>
+    <color name="middle_red">#B76D68</color>
     <color name="maximum_yellow_red">#F6BD60</color>
     <color name="fire_opal">#DD614A</color>
-    <color name="dark_blue">#576490</color>
-    <color name="cornflower_blue">#7796CB</color>
-    <color name="baby_blue_eyes">#A3BCF9</color>
-    <color name="lavender_blue">#D1D2F9</color>
+    <color name="dark_blue">#1B2432</color>
+    <color name="cornflower_blue">#403F4C</color>
+    <color name="cornflower_blue_darker">#292932</color>
+    <color name="baby_blue_eyes">#403F4C</color>
+    <color name="lavender_blue">#1B2432</color>
     <color name="lavender_grey">#C9CAD9</color>
-
     <color name="maximum_green">#628B48</color>
 </resources>

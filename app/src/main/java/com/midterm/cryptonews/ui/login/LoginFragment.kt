@@ -17,7 +17,7 @@ import com.midterm.cryptonews.enums.ErrorHandlerMessages
 import com.midterm.cryptonews.ui.base.BaseFragment
 
 class LoginFragment :
-    BaseFragment<FragmentLoginBinding, LoginFragmentViewModel>(FragmentLoginBinding::inflate) {
+    BaseFragment<FragmentLoginBinding, LoginViewModel>(FragmentLoginBinding::inflate) {
 
     private lateinit var auth: FirebaseAuth
 
@@ -124,5 +124,5 @@ class LoginFragment :
     }
 
     override fun getFactory(): ViewModelProvider.Factory? = null
-    override fun getViewModel(): Class<LoginFragmentViewModel> = LoginFragmentViewModel::class.java
+    override fun getViewModel(): Class<LoginViewModel> = LoginViewModel::class.java
 }

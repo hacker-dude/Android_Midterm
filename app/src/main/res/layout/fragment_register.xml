@@ -71,6 +71,7 @@
         app:errorEnabled="true">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_user_name"
+            android:backgroundTint="@color/lavender_grey"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -95,6 +96,7 @@
         app:errorEnabled="true">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_email"
+            android:backgroundTint="@color/lavender_grey"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -116,6 +118,7 @@
         app:errorEnabled="true">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:backgroundTint="@color/lavender_grey"
             android:id="@+id/et_password"
             android:inputType="textPassword"
             android:layout_height="wrap_content"
@@ -130,7 +133,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/gill_sans_mt"
         android:text="@string/register"
         app:layout_constraintRight_toRightOf="parent"

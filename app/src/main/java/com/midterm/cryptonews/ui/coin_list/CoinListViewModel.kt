@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.Response
 
-class CoinListFragmentViewModel(private val repository: Repository) : ViewModel(){
+class CoinListViewModel(private val repository: Repository) : ViewModel(){
 
     private var _marketResponse = MutableSharedFlow<Response<Array<MoshiMarketModel>>>()
     val marketResponse: Flow<Response<Array<MoshiMarketModel>>> get() = _marketResponse

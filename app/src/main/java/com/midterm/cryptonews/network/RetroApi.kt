@@ -16,6 +16,16 @@ interface RetroApi {
         @Query("order") order:String,
         @Query("per_page") per_page:Int,
         @Query("page") page:Int,
-        @Query("sparkline") sparkline:Boolean,
+        @Query("sparkline") sparkline:Boolean = false,
         ):Response<Array<MoshiMarketModel>>
+
+    @GET("markets")
+    suspend fun getCoinItem(
+        @Query("ids") ids:String,
+        @Query("vs_currency") vs_currency:String,
+        @Query("order") order:String,
+        @Query("per_page") per_page:Int,
+        @Query("page") page:Int,
+        @Query("sparkline") sparkline:Boolean = true,
+    ):Response<Array<CoinItemModel>>
 }

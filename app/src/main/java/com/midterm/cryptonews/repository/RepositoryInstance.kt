@@ -16,4 +16,7 @@ class Repository {
         Log.d("holdup",idsString)
         return RetrofitInstance.apiClient.getCoinMarket(idsString,vs_c,order,per_page,page,sparkline)
     }
+    suspend fun getCoinItem(ids:String,vs_c:String,order:String,per_page:Int,page:Int,sparkline:Boolean = true):Response<Array<CoinItemModel>>{
+        return RetrofitInstance.apiClient.getCoinItem(ids,vs_c,order,per_page,page,sparkline)
+    }
 }

@@ -10,4 +10,13 @@
     <string name="crypto_news">Crypto News</string>
     <string name="user_name">User Name</string>
     <string name="add">add</string>
+    <string name="your_coins">Your Coins</string>
+    <string name="save">Save</string>
+    <string name="circulating_supply">Circulating Supply:</string>
+    <string name="market_cap">Market Cap:</string>
+    <string name="total_supply">Total Supply:</string>
+    <string name="max_supply">Max Supply:</string>
+    <string name="max_cap_rank">Max Cap Rank:</string>
+    <string name="_24h_low_24h_high">24h Low / 24h High:</string>
+    <string name="slash">/</string>
 </resources>
