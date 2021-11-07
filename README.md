@@ -24,4 +24,4 @@
 - [Firebase](https://firebase.google.com/) - Used for user authenticaion and realtame database for storing user chosen coins
 - [MaterialIO] - Used for most material components
 - [Glide](https://github.com/bumptech/glide) - Used for getting images
-- [Graphs](https://github.com/PhilJay/MPAndroidChart) - Used for graphing coin 
+- [Graphs](https://github.com/PhilJay/MPAndroidChart) - Used for graphing coin statistics
