@@ -87,7 +87,8 @@ class CoinListFragment :
     }
 
     private fun goToCoinChooser(){
-        findNavController().navigate(R.id.action_coinListFragment_to_coinChooserFragment)
+        val direction = CoinListFragmentDirections.actionCoinListFragmentToCoinChooserFragment(auth.uid!!)
+        findNavController().navigate(direction)
     }
 
     override var useViewModelFactory = true

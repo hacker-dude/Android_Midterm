@@ -25,7 +25,7 @@ data class MoshiMarketModel(
         @Json(name = "current_price")
         var currentPrice: Double?,
         @Json(name = "fully_diluted_valuation")
-        var fullyDilutedValuation: Long?,
+        var fullyDilutedValuation: Double?,
         @Json(name = "high_24h")
         var high24h: Double?,
         var id: String?,
@@ -35,7 +35,7 @@ data class MoshiMarketModel(
         @Json(name = "low_24h")
         var low24h: Double?,
         @Json(name = "market_cap")
-        var marketCap: Long?,
+        var marketCap: Double?,
         @Json(name = "market_cap_change_24h")
         var marketCapChange24h: Double?,
         @Json(name = "market_cap_change_percentage_24h")
@@ -43,7 +43,7 @@ data class MoshiMarketModel(
         @Json(name = "market_cap_rank")
         var marketCapRank: Double?,
         @Json(name = "max_supply")
-        var maxSupply: Long?,
+        var maxSupply: Double?,
         var name: String?,
         @Json(name = "price_change_24h")
         var priceChange24h: Double?,
@@ -51,7 +51,7 @@ data class MoshiMarketModel(
         var priceChangePercentage24h: Double?,
         var symbol: String?,
         @Json(name = "total_supply")
-        var totalSupply: Long?,
+        var totalSupply: Double?,
         @Json(name = "total_volume")
-        var totalVolume: Long?,
+        var totalVolume: Double?,
 ):Parcelable

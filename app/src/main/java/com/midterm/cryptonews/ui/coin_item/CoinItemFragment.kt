@@ -127,7 +127,6 @@ class CoinItemFragment : BaseFragment<FragmentCoinItemBinding,CoinItemViewModel>
             btnToUsd.setOnClickListener {currency = "usd";changeCurrency()}
         }
     }
-
     private fun changeCurrency(){
         if (currency == "usd" && usdToGel != -1.0){
             binding.apply {
@@ -146,7 +145,6 @@ class CoinItemFragment : BaseFragment<FragmentCoinItemBinding,CoinItemViewModel>
             }
         }
     }
-
     private fun enableButtons(state:Boolean){
         binding.apply {
             btnToGel.isClickable = state

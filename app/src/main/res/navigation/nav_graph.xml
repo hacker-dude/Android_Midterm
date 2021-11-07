@@ -71,15 +71,6 @@
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action
-            android:id="@+id/action_dashboardFragment_to_loginFragment"
-            app:destination="@id/loginFragment"
-            app:enterAnim="@android:anim/slide_in_left"
-            app:exitAnim="@android:anim/slide_out_right"
-            app:popEnterAnim="@android:anim/slide_in_left"
-            app:popExitAnim="@anim/slide_down"
-            app:popUpTo="@id/nav_graph"
-            app:popUpToInclusive="true" />
-        <action
             android:id="@+id/action_dashboardFragment_to_coinListFragment"
             app:destination="@id/coinListFragment"
             app:enterAnim="@android:anim/slide_in_left"
@@ -118,7 +109,18 @@
         android:id="@+id/coinChooserFragment"
         android:name="com.midterm.cryptonews.ui.coin_chooser.CoinChooserFragment"
         android:label="fragment_coin_chooser"
-        tools:layout="@layout/fragment_coin_chooser" />
+        tools:layout="@layout/fragment_coin_chooser" >
+        <argument
+            android:name="uid"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_coinChooserFragment_to_coinListFragment"
+            app:destination="@id/coinListFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@anim/slide_down"
+            app:popUpTo="@id/coinItemFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
     <fragment
         android:id="@+id/coinItemFragment"
         android:name="com.midterm.cryptonews.ui.coin_item.CoinItemFragment"

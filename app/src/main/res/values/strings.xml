@@ -23,4 +23,6 @@
     <string name="source_page">Source Page:</string>
     <string name="usd">USD</string>
     <string name="gel">GEL</string>
+    <string name="your_coins_list">Your Coins:</string>
+    <string name="available_coins">Available Coins:</string>
 </resources>
