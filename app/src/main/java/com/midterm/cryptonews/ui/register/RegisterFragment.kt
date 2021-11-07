@@ -88,7 +88,6 @@ class RegisterFragment :
                             if (it.isSuccessful) {
                                 Log.d("AuthLogger", "inside database reference", it.exception)
                                 disableForTransition()
-                                binding.pbRegistering.visibility = View.GONE
                                 findNavController().navigate(R.id.action_registerFragment_to_dashboardFragment)
                             } else {
                                 Log.d("AuthLogger", "createUserWithEmail:failure", it.exception)
@@ -98,6 +97,7 @@ class RegisterFragment :
                                     Snackbar.LENGTH_LONG
                                 ).show()
                             }
+                            binding.pbRegistering.visibility = View.GONE
                         }
                     } else {
                         Log.d("AuthLogger", "createUserWithEmail:failure", task.exception)

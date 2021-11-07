@@ -28,4 +28,12 @@ interface RetroApi {
         @Query("page") page:Int,
         @Query("sparkline") sparkline:Boolean = true,
     ):Response<Array<CoinItemModel>>
+
+    @GET("news")
+    suspend fun getNews(
+        @Query("apikey") apikey:String = "pub_212097a98c2e86d07d88667208857afda045",
+        @Query("page")page:Int,
+        @Query("q") query:String,
+        @Query("language") sparkline:String = "en",
+    ):Response<NewsModel>
 }

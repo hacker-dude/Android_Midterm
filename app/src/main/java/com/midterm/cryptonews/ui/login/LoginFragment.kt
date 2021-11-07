@@ -1,7 +1,6 @@
 package com.midterm.cryptonews.ui.login
 
 
-import android.util.Log
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputEditText
@@ -62,15 +61,8 @@ class LoginFragment :
             auth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(requireActivity()) { task ->
                     if (task.isSuccessful) {
-                        // Sign in success, update UI with the signed-in user's information
-                        Log.d("AuthLogger", "signInWithEmail:success")
-                        val user = auth.currentUser // NEED TO DO SOMETHING WITH THIS
                         findNavController().navigate(R.id.action_loginFragment_to_dashboardFragment)
                     } else {
-
-                        Log.d("AuthLogger", "signInWithEmail:failure", task.exception)
-
-                        // -------------------------------------------------
                         if (task.exception is FirebaseAuthInvalidUserException) {
 
                             val errorMessage =
@@ -80,10 +72,8 @@ class LoginFragment :
                                 emailField.error =
                                     ErrorHandlerMessages.USER_WITH_THIS_EMAIL_DOES_NOT_EXIST.message
                             }
-                            // ....
                         } else if (task.exception is FirebaseAuthInvalidCredentialsException) {
                             passwordField.error = ErrorHandlerMessages.INVALID_PASSWORD.message
-                            // ....
                         }
                     }
                 }

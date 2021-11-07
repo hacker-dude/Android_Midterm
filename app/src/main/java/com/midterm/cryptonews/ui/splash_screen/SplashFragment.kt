@@ -32,12 +32,6 @@ class SplashFragment :
         } else {
             delayedAnim(R.id.action_splashFragment_to_loginFragment)
         }
-
-//        viewModel.usdToGel.observe(this,{
-//            binding.tvAppName.text = it.usd_gel.toString()
-//        })
-        // viewModel.getUsdToGel()
-
     }
 
     private fun delayedAnim(id: Int) {
@@ -60,7 +54,6 @@ class SplashFragment :
     override fun getViewModel(): Class<SplashViewModel> =
         SplashViewModel::class.java
 
-    override fun getFactory(): ViewModelProvider.Factory =
-        SplashViewModelFactory(Repository())
+    override fun getFactory(): ViewModelProvider.Factory? = null
 
 }

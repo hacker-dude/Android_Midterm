@@ -25,4 +25,9 @@ class Repository {
     suspend fun getCoinItem(id:String,vs_c:String,order:String,per_page:Int,page:Int,sparkline:Boolean = true):Response<Array<CoinItemModel>>{
         return RetrofitInstance.apiClient.getCoinItem(id,vs_c,order,per_page,page,sparkline)
     }
+
+    suspend fun getNews(page: Int,q:ArrayList<String>):Response<NewsModel>{
+        val query = q.joinToString(separator = " OR ")
+        return RetrofitInstance.newsClient.getNews(page = page,query = query)
+    }
 }

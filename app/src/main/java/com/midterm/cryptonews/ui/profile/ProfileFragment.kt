@@ -2,9 +2,9 @@ package com.midterm.cryptonews.ui.profile
 
 import android.content.Intent
 import android.net.Uri
-import android.util.Log
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.*
@@ -29,7 +29,7 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding,ProfileViewModel>(Fr
     private fun listeners(){
         binding.btnLogOut.setOnClickListener {
             logOut()
-            findNavController().navigate(R.id.action_dashboardFragment_to_coinListFragment)
+            findNavController().navigate(R.id.action_profileFragment_to_loginFragment)
         }
         binding.btnGitPage.setOnClickListener {
             goToGit()
@@ -47,7 +47,7 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding,ProfileViewModel>(Fr
             val info = requireContext().packageManager.getPackageInfo(requireContext().packageName,0)
             binding.tvVersion.text = "V ".plus(info.versionName)
         }catch (e : Exception){
-            Log.d("getPackageInfo",e.message.toString())
+            Snackbar.make(binding.root,"Unable To Open Page",Snackbar.LENGTH_LONG).show()
         }
     }
     private fun getUserName(){
@@ -64,7 +64,7 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding,ProfileViewModel>(Fr
                 binding.tvUserName.text = post
             }
             override fun onCancelled(error: DatabaseError) {
-                Log.d( "ValueUpdateError","line 58 log value not updated")
+                Snackbar.make(binding.root,"Unable To Load User",Snackbar.LENGTH_LONG).show()
             }
         }
         databaseReference.child(uid).child("username").addValueEventListener(postListener)

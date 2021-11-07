@@ -1,6 +1,7 @@
 package com.midterm.cryptonews.network
 
 import com.midterm.cryptonews.network.Constants.Companion.CONVERTER_BASE_URL
+import com.midterm.cryptonews.network.Constants.Companion.NEWS_BASE_URL
 import com.midterm.cryptonews.network.Constants.Companion.SIMPLE_COIN_PRICE
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -37,6 +38,19 @@ object RetrofitInstance {
     val converterClient : RetroApi by lazy {
         Retrofit.Builder()
             .baseUrl(CONVERTER_BASE_URL)
+            .client(okHttpClient)
+            .addConverterFactory(MoshiConverterFactory.create(
+                Moshi.Builder()
+                    //.add(ArrayListAdapter.FACTORY)
+                    .addLast(KotlinJsonAdapterFactory())
+                    .build()
+            ))
+            .build().create(RetroApi::class.java)
+
+    }
+    val newsClient : RetroApi by lazy {
+        Retrofit.Builder()
+            .baseUrl(NEWS_BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(MoshiConverterFactory.create(
                 Moshi.Builder()

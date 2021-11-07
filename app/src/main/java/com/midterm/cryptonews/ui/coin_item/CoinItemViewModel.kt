@@ -3,8 +3,6 @@ package com.midterm.cryptonews.ui.coin_item
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.midterm.cryptonews.models.CoinItemModel
-import com.midterm.cryptonews.models.MoshiMarketModel
-import com.midterm.cryptonews.models.UsdToGelModel
 import com.midterm.cryptonews.repository.Repository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
