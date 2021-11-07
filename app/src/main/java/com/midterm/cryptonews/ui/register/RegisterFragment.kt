@@ -72,6 +72,9 @@ class RegisterFragment :
                         Log.d("AuthLogger", "createUserWithEmail:success")
 
                         val user = auth.currentUser
+
+
+
                         val uid = user!!.uid
 
                         // I SHOULDN'T HAVE TO DO THIS BY HAND

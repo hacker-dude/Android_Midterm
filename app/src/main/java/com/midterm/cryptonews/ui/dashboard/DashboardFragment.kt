@@ -20,8 +20,7 @@ class DashboardFragment :
         binding.tvUser.text = user!!.email
 
         binding.btnProfile.setOnClickListener {
-            Firebase.auth.signOut()
-            findNavController().navigate(R.id.action_dashboardFragment_to_loginFragment)
+            findNavController().navigate(R.id.action_dashboardFragment_to_profileFragment)
         }
 
         binding.btnList.setOnClickListener {

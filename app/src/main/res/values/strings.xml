@@ -19,4 +19,6 @@
     <string name="max_cap_rank">Max Cap Rank:</string>
     <string name="_24h_low_24h_high">24h Low / 24h High:</string>
     <string name="slash">/</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="source_page">Source Page:</string>
 </resources>
