@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_coin_list.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xhdpi\\ic_coin_list.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_coin_chooser_item.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\coin_chooser_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_coin_item.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_coin_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_news_item.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\news_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\raw_bitcoin.json.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\raw\\bitcoin.json"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_profile.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-anydpi\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_btn_edit.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xhdpi\\ic_btn_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-hdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_small_circle.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\small_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_splash.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-mdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_coin_list.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-mdpi\\ic_coin_list.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_down.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_coin_chooser.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_coin_chooser.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\font_gill_sans.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\font\\gill_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_up.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_btn_edit.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-mdpi\\ic_btn_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_coin_item.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\coin_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_coin_list.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xxhdpi\\ic_coin_list.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_name.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-anydpi\\ic_action_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_log_out.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-anydpi\\ic_log_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_log_out.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-hdpi\\ic_log_out.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_add.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-mdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_add.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-anydpi\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_log_out.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-mdpi\\ic_log_out.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_bcg.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\splash_bcg.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_log_out.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xhdpi\\ic_log_out.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_coin_list.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-anydpi\\ic_coin_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_add.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-hdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_btn_edit.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-anydpi\\ic_btn_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_out_slow.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\anim\\fade_out_slow.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_in_slow.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\anim\\fade_in_slow.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_coin_list.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_coin_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_btn_edit.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-hdpi\\ic_btn_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_git_logo.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-hdpi\\git_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_border_red.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\round_border_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\font_gill_sans_mt.ttf.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\font\\gill_sans_mt.ttf"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_coin_list_item.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\coin_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_coin_list.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-hdpi\\ic_coin_list.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_your_coins_border.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\your_coins_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_log_out.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xxhdpi\\ic_log_out.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_btn_edit.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xxhdpi\\ic_btn_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_profile.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xxhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_border.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\round_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\font-v26_gill_sans.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\font-v26\\gill_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    }
+]

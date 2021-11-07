@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_coin_chooser.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_coin_chooser.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\coin_list_item.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\coin_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_coin_list.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_coin_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_coin_item.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\fragment_coin_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\news_item.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\news_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\coin_chooser_item.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\CryptoNews\\app\\src\\main\\res\\layout\\coin_chooser_item.xml"
+    }
+]

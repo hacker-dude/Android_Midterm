@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lavender_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.dashboard.DashboardFragment">
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:indeterminateTint="@color/lavender_grey">
+    </ProgressBar>
+    <View
+        android:background="@color/cornflower_blue"
+        android:id="@+id/v_header"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    </View>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_logo"
+        app:layout_constraintTop_toTopOf="@id/tv_logo"
+        app:layout_constraintEnd_toEndOf="@id/tv_logo"
+        app:layout_constraintStart_toStartOf="@id/tv_logo"
+        android:background="@drawable/small_circle">
+    </View>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srl_news_refresher"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/v_header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/news_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/tv_logo"
+        android:background="@drawable/ic_action_name"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toTopOf="@+id/v_header"
+        app:layout_constraintBottom_toBottomOf="@+id/v_header"
+        app:layout_constraintLeft_toLeftOf="@+id/v_header"
+        app:layout_constraintRight_toRightOf="@+id/v_header">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_profile"
+        android:background="@drawable/ic_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toTopOf="@id/v_header"
+        app:layout_constraintBottom_toBottomOf="@id/v_header"
+        app:layout_constraintRight_toRightOf="parent">
+    </androidx.appcompat.widget.AppCompatImageButton>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_list"
+        android:background="@drawable/ic_coin_list"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toTopOf="@id/v_header"
+        app:layout_constraintBottom_toBottomOf="@id/v_header"
+        app:layout_constraintLeft_toLeftOf="parent">
+    </androidx.appcompat.widget.AppCompatImageButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+com/midterm/cryptonews/ui/coin_item/CoinItemFragmentArgs.java
+ com.midterm.cryptonews.ui.coin_item.CoinItemFragmentArgs
+ com.midterm.cryptonews.ui.coin_item.CoinItemFragmentArgs$1
+ com.midterm.cryptonews.ui.coin_item.CoinItemFragmentArgs$Builder
+com/midterm/cryptonews/ui/coin_chooser/CoinChooserFragmentArgs.java
+ com.midterm.cryptonews.ui.coin_chooser.CoinChooserFragmentArgs
+ com.midterm.cryptonews.ui.coin_chooser.CoinChooserFragmentArgs$1
+ com.midterm.cryptonews.ui.coin_chooser.CoinChooserFragmentArgs$Builder
+com/midterm/cryptonews/BuildConfig.java
+ com.midterm.cryptonews.BuildConfig
+com/midterm/cryptonews/databinding/FragmentProfileBinding.java
+ com.midterm.cryptonews.databinding.FragmentProfileBinding
+com/midterm/cryptonews/databinding/FragmentCoinListBinding.java
+ com.midterm.cryptonews.databinding.FragmentCoinListBinding
+com/midterm/cryptonews/ui/dashboard/DashboardFragmentDirections.java
+ com.midterm.cryptonews.ui.dashboard.DashboardFragmentDirections
+com/midterm/cryptonews/databinding/NewsItemBinding.java
+ com.midterm.cryptonews.databinding.NewsItemBinding
+com/midterm/cryptonews/databinding/CoinListItemBinding.java
+ com.midterm.cryptonews.databinding.CoinListItemBinding
+com/midterm/cryptonews/databinding/FragmentSplashBinding.java
+ com.midterm.cryptonews.databinding.FragmentSplashBinding
+com/midterm/cryptonews/ui/coin_list/CoinListFragmentDirections.java
+ com.midterm.cryptonews.ui.coin_list.CoinListFragmentDirections
+ com.midterm.cryptonews.ui.coin_list.CoinListFragmentDirections$1
+ com.midterm.cryptonews.ui.coin_list.CoinListFragmentDirections$ActionCoinListFragmentToCoinChooserFragment
+ com.midterm.cryptonews.ui.coin_list.CoinListFragmentDirections$ActionCoinListFragmentToCoinItemFragment
+com/midterm/cryptonews/databinding/FragmentLoginBinding.java
+ com.midterm.cryptonews.databinding.FragmentLoginBinding
+com/midterm/cryptonews/databinding/FragmentCoinItemBinding.java
+ com.midterm.cryptonews.databinding.FragmentCoinItemBinding
+com/midterm/cryptonews/ui/register/RegisterFragmentDirections.java
+ com.midterm.cryptonews.ui.register.RegisterFragmentDirections
+com/midterm/cryptonews/databinding/FragmentRegisterBinding.java
+ com.midterm.cryptonews.databinding.FragmentRegisterBinding
+com/midterm/cryptonews/databinding/CoinChooserItemBinding.java
+ com.midterm.cryptonews.databinding.CoinChooserItemBinding
+com/midterm/cryptonews/databinding/ActivityMainBinding.java
+ com.midterm.cryptonews.databinding.ActivityMainBinding
+com/midterm/cryptonews/ui/profile/ProfileFragmentDirections.java
+ com.midterm.cryptonews.ui.profile.ProfileFragmentDirections
+com/midterm/cryptonews/ui/login/LoginFragmentDirections.java
+ com.midterm.cryptonews.ui.login.LoginFragmentDirections
+com/midterm/cryptonews/ui/coin_chooser/CoinChooserFragmentDirections.java
+ com.midterm.cryptonews.ui.coin_chooser.CoinChooserFragmentDirections
+com/midterm/cryptonews/ui/splash_screen/SplashFragmentDirections.java
+ com.midterm.cryptonews.ui.splash_screen.SplashFragmentDirections
+com/midterm/cryptonews/databinding/FragmentCoinChooserBinding.java
+ com.midterm.cryptonews.databinding.FragmentCoinChooserBinding
+com/midterm/cryptonews/databinding/FragmentDashboardBinding.java
+ com.midterm.cryptonews.databinding.FragmentDashboardBinding
