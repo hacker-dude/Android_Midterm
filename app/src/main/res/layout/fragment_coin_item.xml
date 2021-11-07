@@ -44,7 +44,7 @@
     </androidx.appcompat.widget.AppCompatTextView>
     <!--this is graph-->
     <com.github.mikephil.charting.charts.LineChart
-        android:visibility="gone"
+        android:visibility="invisible"
         android:background="@color/cornflower_blue_darker"
         android:id="@+id/lc_graph"
         android:layout_width="match_parent"
@@ -348,5 +348,34 @@
 
     </androidx.appcompat.widget.AppCompatTextView>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_gel"
+        android:paddingTop="6dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/gill_sans_mt"
+        android:textColor="@color/cornflower_blue"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="90dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_to_usd"
+        android:text="@string/usd" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_usd"
+        android:paddingTop="6dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/gill_sans_mt"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="90dp"
+        app:layout_constraintLeft_toRightOf="@+id/btn_to_gel"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/gel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

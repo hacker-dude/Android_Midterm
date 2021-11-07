@@ -11,7 +11,7 @@ interface RetroApi {
 
     @GET("markets")
     suspend fun getCoinMarket(
-        @Query("ids") ids:String,
+        @Query("ids") ids:String?,
         @Query("vs_currency") vs_currency:String,
         @Query("order") order:String,
         @Query("per_page") per_page:Int,

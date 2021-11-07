@@ -21,4 +21,6 @@
     <string name="slash">/</string>
     <string name="sign_out">Sign Out</string>
     <string name="source_page">Source Page:</string>
+    <string name="usd">USD</string>
+    <string name="gel">GEL</string>
 </resources>
